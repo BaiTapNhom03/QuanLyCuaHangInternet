@@ -1,0 +1,9 @@
+d:\btlinternet\btlquanlycuahanginternet\bin\Debug\btlquanlycuahanginternet.exe
+d:\btlinternet\btlquanlycuahanginternet\bin\Debug\btlquanlycuahanginternet.pdb
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.csprojAssemblyReference.cache
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.Properties.Resources.resources
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.csproj.GenerateResource.cache
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.csproj.CoreCompileInputs.cache
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.exe
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.pdb
+d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.FrmMain.resources
