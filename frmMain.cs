@@ -25,6 +25,7 @@ namespace btlquanlycuahanginternet
         private void mnuthoat_Click(object sender, EventArgs e)
         {
             Class.functions.DisConnect();
+            Application.Exit();
         }
     }
 }
