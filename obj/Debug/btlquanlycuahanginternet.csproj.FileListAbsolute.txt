@@ -7,3 +7,16 @@ d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.cspro
 d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.exe
 d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.pdb
 d:\btlinternet\btlquanlycuahanginternet\obj\Debug\btlquanlycuahanginternet.FrmMain.resources
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\bin\Debug\btlquanlycuahanginternet.exe
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\bin\Debug\btlquanlycuahanginternet.pdb
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.csprojAssemblyReference.cache
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.frmMain.resources
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.frmTKMayTinh.resources
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.Properties.Resources.resources
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.csproj.GenerateResource.cache
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.exe
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.pdb
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.frmMayTinh.resources
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.csproj.ResolveComReference.cache
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.frmBCCPBaoTri.resources
+D:\GitExample\BaiTapNhom3\BTNhom03\QuanLyCuaHangInternet\obj\Debug\btlquanlycuahanginternet.frmBaoTri.resources

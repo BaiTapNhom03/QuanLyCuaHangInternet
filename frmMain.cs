@@ -27,5 +27,26 @@ namespace btlquanlycuahanginternet
             Class.functions.DisConnect();
             Application.Exit();
         }
+
+        private void mnuTKMT_Click(object sender, EventArgs e)
+        {
+            frmTKMayTinh f = new frmTKMayTinh();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.Show();
+        }
+
+        private void mnuMayTinh_Click(object sender, EventArgs e)
+        {
+            frmMayTinh f = new frmMayTinh();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.Show();
+        }
+
+        private void mnuChiPhiBaoTri_Click(object sender, EventArgs e)
+        {
+            frmBCCPBaoTri f = new frmBCCPBaoTri();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.Show();
+        }
     }
 }

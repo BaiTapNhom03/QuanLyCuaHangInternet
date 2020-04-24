@@ -42,6 +42,7 @@
             this.mnuTKMT = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuthoat = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuBaoTri = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +64,8 @@
             this.danhMụcToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuPhong,
             this.mnuMayTinh,
-            this.mnuThueMay});
+            this.mnuThueMay,
+            this.mnuBaoTri});
             this.danhMụcToolStripMenuItem.Name = "danhMụcToolStripMenuItem";
             this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.danhMụcToolStripMenuItem.Text = "Danh mục";
@@ -79,6 +81,7 @@
             this.mnuMayTinh.Name = "mnuMayTinh";
             this.mnuMayTinh.Size = new System.Drawing.Size(180, 22);
             this.mnuMayTinh.Text = "Máy tính";
+            this.mnuMayTinh.Click += new System.EventHandler(this.mnuMayTinh_Click);
             // 
             // mnuThueMay
             // 
@@ -106,13 +109,14 @@
             // mnuChiPhiBaoTri
             // 
             this.mnuChiPhiBaoTri.Name = "mnuChiPhiBaoTri";
-            this.mnuChiPhiBaoTri.Size = new System.Drawing.Size(149, 22);
+            this.mnuChiPhiBaoTri.Size = new System.Drawing.Size(180, 22);
             this.mnuChiPhiBaoTri.Text = "Chi phí bảo trì";
+            this.mnuChiPhiBaoTri.Click += new System.EventHandler(this.mnuChiPhiBaoTri_Click);
             // 
             // mnuDoanhThu
             // 
             this.mnuDoanhThu.Name = "mnuDoanhThu";
-            this.mnuDoanhThu.Size = new System.Drawing.Size(149, 22);
+            this.mnuDoanhThu.Size = new System.Drawing.Size(180, 22);
             this.mnuDoanhThu.Text = "Doanh thu";
             // 
             // trợGiúpToolStripMenuItem
@@ -129,6 +133,7 @@
             this.mnuTKMT.Name = "mnuTKMT";
             this.mnuTKMT.Size = new System.Drawing.Size(129, 22);
             this.mnuTKMT.Text = "Máy Tính";
+            this.mnuTKMT.Click += new System.EventHandler(this.mnuTKMT_Click);
             // 
             // mnuNhanVien
             // 
@@ -142,6 +147,12 @@
             this.mnuthoat.Size = new System.Drawing.Size(49, 20);
             this.mnuthoat.Text = "Thoát";
             this.mnuthoat.Click += new System.EventHandler(this.mnuthoat_Click);
+            // 
+            // mnuBaoTri
+            // 
+            this.mnuBaoTri.Name = "mnuBaoTri";
+            this.mnuBaoTri.Size = new System.Drawing.Size(180, 22);
+            this.mnuBaoTri.Text = "Bảo Trì";
             // 
             // frmMain
             // 
@@ -176,5 +187,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuthoat;
         private System.Windows.Forms.ToolStripMenuItem mnuThueMay;
         private System.Windows.Forms.ToolStripMenuItem mnuChonMay;
+        private System.Windows.Forms.ToolStripMenuItem mnuBaoTri;
     }
 }
