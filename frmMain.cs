@@ -48,5 +48,19 @@ namespace btlquanlycuahanginternet
             f.StartPosition = FormStartPosition.CenterScreen;
             f.Show();
         }
+
+        private void mnuNhanVien_Click(object sender, EventArgs e)
+        {
+            frmTKNV f = new frmTKNV();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.Show();
+        }
+
+        private void mnuDMNV_Click(object sender, EventArgs e)
+        {
+            frmDMNV f = new frmDMNV();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.Show();
+        }
     }
 }

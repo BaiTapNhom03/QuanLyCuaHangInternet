@@ -57,6 +57,12 @@
     <Compile Include="frmBCCPBaoTri.Designer.cs">
       <DependentUpon>frmBCCPBaoTri.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDMNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMNV.Designer.cs">
+      <DependentUpon>frmDMNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     <Compile Include="frmTKMayTinh.Designer.cs">
       <DependentUpon>frmTKMayTinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTKNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTKNV.Designer.cs">
+      <DependentUpon>frmTKNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBaoTri.resx">
@@ -82,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBCCPBaoTri.resx">
       <DependentUpon>frmBCCPBaoTri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMNV.resx">
+      <DependentUpon>frmDMNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -91,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTKMayTinh.resx">
       <DependentUpon>frmTKMayTinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTKNV.resx">
+      <DependentUpon>frmTKNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

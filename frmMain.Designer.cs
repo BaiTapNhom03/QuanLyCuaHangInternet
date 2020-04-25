@@ -35,6 +35,7 @@
             this.mnuMayTinh = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThueMay = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChonMay = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuBaoTri = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChiPhiBaoTri = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDoanhThu = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,7 +43,7 @@
             this.mnuTKMT = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuthoat = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuBaoTri = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDMNV = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,7 +66,8 @@
             this.mnuPhong,
             this.mnuMayTinh,
             this.mnuThueMay,
-            this.mnuBaoTri});
+            this.mnuBaoTri,
+            this.mnuDMNV});
             this.danhMụcToolStripMenuItem.Name = "danhMụcToolStripMenuItem";
             this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.danhMụcToolStripMenuItem.Text = "Danh mục";
@@ -97,6 +99,12 @@
             this.mnuChonMay.Size = new System.Drawing.Size(129, 22);
             this.mnuChonMay.Text = "Chọn Máy";
             // 
+            // mnuBaoTri
+            // 
+            this.mnuBaoTri.Name = "mnuBaoTri";
+            this.mnuBaoTri.Size = new System.Drawing.Size(180, 22);
+            this.mnuBaoTri.Text = "Bảo Trì";
+            // 
             // báoCáoToolStripMenuItem
             // 
             this.báoCáoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -109,14 +117,14 @@
             // mnuChiPhiBaoTri
             // 
             this.mnuChiPhiBaoTri.Name = "mnuChiPhiBaoTri";
-            this.mnuChiPhiBaoTri.Size = new System.Drawing.Size(180, 22);
+            this.mnuChiPhiBaoTri.Size = new System.Drawing.Size(149, 22);
             this.mnuChiPhiBaoTri.Text = "Chi phí bảo trì";
             this.mnuChiPhiBaoTri.Click += new System.EventHandler(this.mnuChiPhiBaoTri_Click);
             // 
             // mnuDoanhThu
             // 
             this.mnuDoanhThu.Name = "mnuDoanhThu";
-            this.mnuDoanhThu.Size = new System.Drawing.Size(180, 22);
+            this.mnuDoanhThu.Size = new System.Drawing.Size(149, 22);
             this.mnuDoanhThu.Text = "Doanh thu";
             // 
             // trợGiúpToolStripMenuItem
@@ -140,6 +148,7 @@
             this.mnuNhanVien.Name = "mnuNhanVien";
             this.mnuNhanVien.Size = new System.Drawing.Size(129, 22);
             this.mnuNhanVien.Text = "Nhân Viên";
+            this.mnuNhanVien.Click += new System.EventHandler(this.mnuNhanVien_Click);
             // 
             // mnuthoat
             // 
@@ -148,11 +157,12 @@
             this.mnuthoat.Text = "Thoát";
             this.mnuthoat.Click += new System.EventHandler(this.mnuthoat_Click);
             // 
-            // mnuBaoTri
+            // mnuDMNV
             // 
-            this.mnuBaoTri.Name = "mnuBaoTri";
-            this.mnuBaoTri.Size = new System.Drawing.Size(180, 22);
-            this.mnuBaoTri.Text = "Bảo Trì";
+            this.mnuDMNV.Name = "mnuDMNV";
+            this.mnuDMNV.Size = new System.Drawing.Size(180, 22);
+            this.mnuDMNV.Text = "Nhân Viên";
+            this.mnuDMNV.Click += new System.EventHandler(this.mnuDMNV_Click);
             // 
             // frmMain
             // 
@@ -188,5 +198,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuThueMay;
         private System.Windows.Forms.ToolStripMenuItem mnuChonMay;
         private System.Windows.Forms.ToolStripMenuItem mnuBaoTri;
+        private System.Windows.Forms.ToolStripMenuItem mnuDMNV;
     }
 }

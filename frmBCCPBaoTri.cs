@@ -75,7 +75,9 @@ namespace btlquanlycuahanginternet
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            string sql = "SELECT MaPhong, MayTinh.MaMay, TenMay,NgayBaoTri,ThanhTien from MayTinh join ChiTietBaoTri on MayTinh.MaMay=ChiTietBaoTri.MaMay join BaoTri on ChiTietBaoTri.MaBaoTri=BaoTri.MaBaoTri WHERE 1=1";
+            string sql;
+            double tong, Tongmoi;
+            sql = "SELECT MaPhong, MayTinh.MaMay, TenMay,NgayBaoTri,ThanhTien from MayTinh join ChiTietBaoTri on MayTinh.MaMay=ChiTietBaoTri.MaMay join BaoTri on ChiTietBaoTri.MaBaoTri=BaoTri.MaBaoTri WHERE 1=1";
             if (cboMaPhong.Text != "")
                 sql = sql + " AND MaPhong Like '%" + cboMaPhong.Text + "%' ";
             if (cboThang.Text != "")
@@ -93,6 +95,7 @@ namespace btlquanlycuahanginternet
                 MessageBox.Show("Có " +tableBaoCao.Rows.Count + " bản ghi thỏa mãn điều kiện!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             tableBaoCao = Class.functions.GetDataToTable(sql);
             dataGridView_CPBT.DataSource = tableBaoCao;
+           
             ResetValues();
         }
         private void ResetValues()
